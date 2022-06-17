@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville&family=Montserrat:wght@100&family=Playball&family=Rajdhani&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Rajdhani;
+}
+
+body {
+    /* background: rgb(231, 231, 231); */
+    background: url(colombia\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    padding-top: 12px;
+    background: rgba(255, 255, 255, 0.123);
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px 5px #1d1d1d;
+}
+
+.container h1 {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+div {
+    width: 100%;
+    height: 130px;
+    padding: 50px;
+    text-align: left;
+}
+
+div input {
+    margin-top: 9px;
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+div input:focus::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.container div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px 25px;
+    border-radius: 7px;
+    border: none;
+    background: goldenrod;
+    color: white ;
+    transition: background 1s color 0.5s outline 1s;
+}
+
+button:hover {
+    outline: 1px solid goldenrod;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
